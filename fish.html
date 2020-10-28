@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Durum доставка шашлыка Красноярк</title>
+	<link rel="stylesheet" href="style.css">
+
+	<link rel="apple-touch-icon" sizes="60x60" href="img/icon70.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/img/icon70.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/icon70.png">
+	<link rel="manifest" href="img/icon70.png">
+	<link rel="mask-icon" href="img/icon70.png" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="stylesheet" href="right-nav-style.css">
+	
+<!--Библиотека jQuery-->
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<!--Готовый скрипт корзины-->
+<script defer src="https://lk.easynetshop.ru/frontend/v5/ens-9ab16071.js"></script>
+
+<!--Стили элементов для корзины-->
+<link href="https://lk.easynetshop.ru/frontend/v5/ens-9ab16071.css" rel="stylesheet">
+</head>
+<body>
+
+	 <input type="checkbox" id="nav-toggle" hidden>
+    <!-- 
+    Выдвижную панель размещаете ниже
+    флажка (checkbox), но не обязательно 
+    непосредственно после него, например
+    можно и в конце страницы
+    -->
+    <nav class="nav">
+        <!-- 
+    Метка с именем `id` чекбокса в `for` атрибуте
+    Символ Unicode 'TRIGRAM FOR HEAVEN' (U+2630)
+    Пустой атрибут `onclick` используем для исправления бага в iOS < 6.0
+    См: http://timpietrusky.com/advanced-checkbox-hack 
+    -->
+        <label for="nav-toggle" class="nav-toggle" onclick></label>
+        <!-- 
+    Здесь размещаете любую разметку,
+    если это меню, то скорее всего неупорядоченный список <ul>
+    -->
+        <h2 class="logo"> 
+            <a href="#"></a> 
+        </h2>
+        <ul>
+            <li><a href="menu.html" style="border-left:  3px solid #fff; padding: 0 5px;">НАЗАД</a>
+            <li><a href="meat.html">МЯСО</a>
+            <li><a href="fish.html">РЫБА</a>
+            <li><a href="soup.html">СУПЫ</a>
+            <li><a href="fastfood.html">ФАСТ-ФУД</a>
+            <li><a href="salad.html">САЛАТЫ</a>
+            <li><a href="drink.html">НАПИТКИ</a>
+        </ul>
+    </nav>
+<!----------МЕНЮ НАЧАЛО---------->
+
+<!----------МЕНЮ КОНЕЦ---------->
+
+<!----------БЛОКИ МЕНЮ НАЧАЛО---------->
+<div class="xmainmenu">
+		<a class="mainsubmenu" href="menu.html" style="border:  3px solid #fff; padding: 0 5px;">НАЗАД</a>
+		<a class="mainsubmenu" href="meat.html">МЯСО</a>
+		<a class="mainsubmenu" href="fish.html">РЫБА</a>
+		<a class="mainsubmenu" href="soup.html">СУПЫ</a>
+		<a class="mainsubmenu" href="fastfood.html">ФАСТ-ФУД</a>
+		<a class="mainsubmenu" href="salad.html">САЛАТЫ</a>
+		<a class="mainsubmenu" href="drink.html">НАПИТКИ</a>
+</div>
+
+<div style="width: 100%; display: flex; justify-content: space-around; margin: -50px 0 -70px 0;">	
+	<p style="font-size: 70px; border: 5px dashed #000; background-color: #fff;">РЫБА</p>
+</div>
+
+<div class="menublocks">
+
+	<div class="bludo">
+		<div class="logobludo"><img class="logobludo" src="img/fish/Дорадо_1600x1200.jpg"></div><!--ФОТО-->
+		<div class="nazvanie">Дорадо</div><!--НАЗВАНИЕ-->
+		<div class="cenzak">
+			<div class="cena">450р 1шт</div><!--ЦЕНА-->
+			<a class="btn-ens-action btn-ens-style" data-rel="a40b9876174794" style="font-size: 30px; font-weight: 900; padding: 0px 10px;">+</a>
+		</div>
+	</div>
+
+	<div class="bludo">
+		<div class="logobludo"><img class="logobludo" src="img/fish/Сибас_1600x1200.jpg"></div><!--ФОТО-->
+		<div class="nazvanie">Сибас</div><!--НАЗВАНИЕ-->
+		<div class="cenzak">
+			<div class="cena">450р 1шт</div><!--ЦЕНА-->
+			<a class="btn-ens-action btn-ens-style" data-rel="a40b9876174795" style="font-size: 30px; font-weight: 900; padding: 0px 10px;">+</a>
+		</div>
+	</div>
+
+	<div class="bludo">
+		<div class="logobludo"><img class="logobludo" src="img/fish/Стейк лосось_1600x1200.jpg"></div><!--ФОТО-->
+		<div class="nazvanie">Стейк из лосося</div><!--НАЗВАНИЕ-->
+		<div class="cenzak">
+			<div class="cena">590р 200гр</div><!--ЦЕНА-->
+			<a class="btn-ens-action btn-ens-style" data-rel="a40b9876174796" style="font-size: 30px; font-weight: 900; padding: 0px 10px;">+</a>
+		</div>
+	</div>
+
+	<div class="bludo">
+		<div class="logobludo"><img class="logobludo" src="img/fish/Соусы - шашлычный, чесночный, наргараб, аджика, ткемали_1600x1200.jpg"></div><!--ФОТО-->
+		<div class="nazvanie">Соусы: шашлык, чеснок, наргараб, аджика, ткемали</div><!--НАЗВАНИЕ-->
+		<div class="cenzak">
+			<div class="cena">40р/шт 50гр/шт</div><!--ЦЕНА-->
+			<a class="btn-ens-action btn-ens-style" data-rel="a40b9876174793" style="font-size: 30px; font-weight: 900; padding: 0px 10px;">+</a>
+		</div>
+	</div>
+
+</div>
+</body>
+</html>

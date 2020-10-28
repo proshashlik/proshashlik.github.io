@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<title>Durum</title>
+	<link rel="stylesheet" href="style.css">
+
+	<link rel="apple-touch-icon" sizes="60x60" href="img/icon70.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="/img/icon70.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="img/icon70.png">
+	<link rel="manifest" href="img/icon70.png">
+	<link rel="mask-icon" href="img/icon70.png" color="#5bbad5">
+	<meta name="msapplication-TileColor" content="#da532c">
+	<meta name="theme-color" content="#ffffff">
+
+	<link rel="shortcut icon" href="favicon.ico" />
+	<link rel="stylesheet" href="right-nav-style.css">
+	
+<!--Библиотека jQuery-->
+<script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+<!--Готовый скрипт корзины-->
+<script defer src="https://lk.easynetshop.ru/frontend/v5/ens-a40b9876.js"></script>
+
+<!--Стили элементов для корзины-->
+<link href="https://lk.easynetshop.ru/frontend/v5/ens-a40b9876.css" rel="stylesheet">
+</head>
+<body>
+
+	 <input type="checkbox" id="nav-toggle" hidden>
+    <!-- 
+    Выдвижную панель размещаете ниже
+    флажка (checkbox), но не обязательно 
+    непосредственно после него, например
+    можно и в конце страницы
+    -->
+    <nav class="nav">
+        <!-- 
+    Метка с именем `id` чекбокса в `for` атрибуте
+    Символ Unicode 'TRIGRAM FOR HEAVEN' (U+2630)
+    Пустой атрибут `onclick` используем для исправления бага в iOS < 6.0
+    См: http://timpietrusky.com/advanced-checkbox-hack 
+    -->
+        <label for="nav-toggle" class="nav-toggle" onclick></label>
+        <!-- 
+    Здесь размещаете любую разметку,
+    если это меню, то скорее всего неупорядоченный список <ul>
+    -->
+        <h2 class="logo"> 
+            <a href="#"></a> 
+        </h2>
+        <ul>
+        	<li><a href="index.html" style="border-left:  3px solid #fff; padding: 0 5px;">НАЗАД</a>
+            <li><a href="onas.html">О НАС</a>
+            <li><a href="oplata.html">ДОСТАВКА И ОПЛАТА</a>
+            <li><a href="kontakti.html">КОНТАКТЫ</a>
+        </ul>
+    </nav>
+<!----------МЕНЮ НАЧАЛО---------->
+
+<!----------МЕНЮ КОНЕЦ---------->
+
+<!----------БЛОКИ МЕНЮ НАЧАЛО---------->
+<div class="mainmenu">
+		<a class="mainsubmenu" href="index.html" style="border:  3px solid #fff; padding: 0 5px;">НАЗАД</a>
+		<a class="mainsubmenu" href="onas.html">О НАС</a>
+		<a class="mainsubmenu" href="oplata.html">ДОСТАВКА И ОПЛАТА</a>
+		<a class="mainsubmenu" href="kontakti.html">КОНТАКТЫ</a>
+</div>
+
+<div style="width: 100%; display: flex; justify-content: space-around; margin: -50px 0 -70px 0;">	
+	<p style="font-size: 70px; border: 5px dotted #000; background-color: #fff;">Меню</p>
+</div>
+<!----------МЕНЮ КОНЕЦ---------->
+
+<!----------БЛОКИ МЕНЮ НАЧАЛО---------->
+
+<div class="menublocks">
+
+	<div class="bludo">
+		<div class="logobludo"><img class="logobludo" src="img/meat/Антрекот_1600x1200.jpg"></div><!--ФОТО-->
+		<div class="nazvaniekat">Мясо</div><!--НАЗВАНИЕ-->
+		<div class="cena"></div><!--ЦЕНА-->
+		<a href="meat.html" class="zakazat">Перейти</a>
+	</div>
+
+	<div class="bludo">
+		<div class="logobludo"><img class="logobludo" src="img/fish/Дорадо_1600x1200.jpg"></div><!--ФОТО-->
+		<div class="nazvaniekat">Рыба</div><!--НАЗВАНИЕ-->
+		<div class="cena"></div><!--ЦЕНА-->
+		<a href="fish.html" class="zakazat">Перейти</a>
+	</div>
+
+	<div class="bludo">
+		<div class="logobludo"><img class="logobludo" src="img/soup/Солянка_1600x1200.jpg"></div><!--ФОТО-->
+		<div class="nazvaniekat">Супы</div><!--НАЗВАНИЕ-->
+		<div class="cena"></div><!--ЦЕНА-->
+		<a href="soup.html" class="zakazat">Перейти</a>
+	</div>
+
+	<div class="bludo">
+		<div class="logobludo"><img class="logobludo" src="img/fastfood/Бургер классический_1600x1200.jpg"></div><!--ФОТО-->
+		<div class="nazvaniekat">Фаст-фуд</div><!--НАЗВАНИЕ-->
+		<div class="cena"></div><!--ЦЕНА-->
+		<a href="fastfood.html" class="zakazat">Перейти</a>
+	</div>
+
+	<div class="bludo">
+		<div class="logobludo"><img class="logobludo" src="img/salad/Греческий_1600x1200.jpg"></div><!--ФОТО-->
+		<div class="nazvaniekat">Салаты</div><!--НАЗВАНИЕ-->
+		<div class="cena"></div><!--ЦЕНА-->
+		<a href="salad.html" class="zakazat">Перейти</a>
+	</div>
+
+	<div class="bludo">
+		<div class="logobludo"><img class="logobludo" src="img/drink/кола.png"></div><!--ФОТО-->
+		<div class="nazvaniekat">Напитки</div><!--НАЗВАНИЕ-->
+		<div class="cena"></div><!--ЦЕНА-->
+		<a href="drink.html" class="zakazat">Перейти</a>
+	</div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,541 @@
+@font-face {
+
+font-family: RobotoRegular; /* Имя шрифта */
+
+src: url(fonts/Roboto-Regular.ttf); /* Путь к файлу со шрифтом */
+
+}
+
+@font-face {
+
+font-family: RobotoBlack; /* Имя шрифта */
+
+src: url(fonts/Roboto-Black.ttf); /* Путь к файлу со шрифтом */
+
+}
+
+@font-face {
+
+font-family: Bold; /* Имя шрифта */
+
+src: url(fonts/Bold.ttf); /* Путь к файлу со шрифтом */
+
+}
+
+body {
+	background-image: url(img/bgi.png);
+	background-size: cover;
+
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+
+	background-color: #fff;
+	padding: 0px 0px 0px 0px;
+	margin: 0px 0px 0px 0px;
+	font-family: 'RobotoRegular';
+}
+
+/*----------МЕНЮ НАЧАЛО----------*/
+
+.indexbox {
+	width: 100%;
+	height: 100vh;
+	background-color: #000;
+	background-image: url(img/bgi.png);
+	background-size: 100%;
+	display: block;
+	z-index: 2;
+	position: relative;
+}
+
+.shaslik {
+	background-image: url(img/shaslik.png);
+	background-size: 360px;
+	position: relative;
+	height: 360px;
+	width: 360px;
+	margin: 0px auto;
+	margin-top: -140px;
+	z-index: 1;
+}
+
+.text {
+	background-color: #232323;
+	color: #fff;
+	font-family: RobotoBlack;
+	font-size: 30px;
+	display: inline-block;
+	width: 150vh;
+	margin: 30px 0px 0px 0px;
+	border-top: 5px dashed #fff;
+	padding: 70px 100px;
+	box-shadow: 0 0 10px 1px #000;
+}
+
+.menu {
+	padding: 5px 10px;
+	background-color: #EE1515;
+	display: flex;
+	justify-content: center;
+	box-shadow: 0 0 5px 0 #000;
+	z-index: 3;
+	position: relative;
+	border-bottom: 5px dashed #fff;
+}
+
+.logo {
+	height: 84px;
+	margin: auto 0;
+	padding: 8px;
+	/*background-color: #72221E;*/
+}
+
+.maintext {
+	width: 100%;
+	height: 70vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.timerabot {
+	display: flex;
+	justify-content: center;
+	color: #fff;
+	font-size: 30px;
+	margin: 10px;
+}
+
+.name {
+	display: flex;
+	justify-content: center;
+	color: #fff;
+	margin: 10px auto;
+	padding: 20px;
+	border-radius: 50px;
+	font-size: 80px;
+	font-family: "Bold";
+	box-shadow: 0 0 10px 1px #000;
+	text-shadow: 0 0 10px 1px #000;
+}
+
+.menubutton {
+	display: flex;
+	justify-content: center;
+	color: #fff;
+	margin: 10px;
+	font-size: 30px;
+	text-decoration: none;
+	border: 2px solid #fff;
+	margin: 10px auto;
+	padding: 10px 40px;
+	font-weight: bold;
+}
+
+.menubutton:hover {
+	background-color: #fff;
+	color: #000;
+	transition: 0.5s;
+}
+
+.telephone {
+	display: flex;
+	justify-content: center;
+	color: #fff;
+	margin: 50px;
+	font-size: 30px;
+	font-weight: 900;
+}
+
+/*МЕНЮ ДЛЯ ТЕЛЕФОНА НАЧАЛО*/
+/*МОБИЛКА*/
+@media (max-width : 1000px) {
+.indexbox{
+	background-size: cover;
+}
+
+.maintext {
+	padding-top: 20vh;
+}
+
+.mainmenu {
+	display: none;
+}
+
+.mainsubmenu {
+	display: none;
+}
+
+.menuword {
+	display: none;
+}
+.main-item {
+	display: block;
+}
+
+.minimenu {
+	display: none;
+}
+
+.bludo {
+	display: flex;
+	flex-wrap: wrap;
+	height: 600px;
+	width: 450px;
+	background-color: #fff;
+	margin: 30px 10px 30px 10px;
+	padding: 0px;
+	border-radius: 5px;
+	box-shadow: 0px 0px 10px 1px #000;
+	flex-direction: column;
+	overflow: hidden;
+}
+
+.logobludo {
+	height: 340px;
+	/*width: 100%;*/
+	border-radius: 5px;
+	text-align: center;
+}
+
+.nazvaniekat {
+	display: flex;
+	color: #4A2C00;
+	background-color: #BDBDBD;
+	justify-content: center;
+	text-decoration: none;
+	font-size: 60px;
+	flex-wrap: wrap;
+	margin: 10px;
+}
+
+.nazvanie {
+	display: flex;
+	color: #4A2C00;
+	background-color: #BDBDBD;
+	justify-content: center;
+	text-decoration: none;
+	font-size: 33px;
+	font-weight: bold;
+	flex-wrap: wrap;
+	margin: 10px 10px 3px 10px;
+}
+
+.cena {
+	display: flex;
+	color: #4A2C00;
+	text-decoration: none;
+	font-size: 45px;
+	flex-wrap: wrap;
+	margin: 5px 10px 5px 10px;
+}
+
+.zakazat {
+	display: flex;
+	color: #4A2C00;
+	text-decoration: none;
+	font-size: 42px;
+	font-weight: bold;
+	text-decoration: none;
+	flex-wrap: wrap;
+	text-align: center;
+	margin: auto 10px 13px 20px;
+	box-shadow: 0px 0px 0px 3px #000;
+	padding: 2px 14px 2px 14px;
+	justify-content: center;
+	background-color: #fff;
+	height: 70px;
+	flex-direction: column;
+}
+
+.cenzak {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: auto 0px 0px 0px;
+	padding-top: 5px;
+	background-image: url(img/bodybackgroundwhite.jpg);
+	-webkit-background-size: 80px;
+	background-size: 80px;
+}
+
+.zakazat:hover {
+	background-color: #72221E;
+	color: #E8C172;
+	transition: 0.3s;
+}
+
+/*ОФОРМЛЕНИЕ ЗАКАЗА НАЧАЛО*/
+
+.dostavka {
+	margin-top: 30px;
+	background-color: #232323;
+	color: #fff;
+	width: 100%;
+	font-size: 30px;
+	padding: 30px 50px 30px 50px;
+	text-align: left;
+	text-shadow: 0 0 10px #000;
+	border: 15px dashed #fff;
+}
+	
+
+.tnumber1 {
+	color: #000;
+	text-decoration: none;
+	font-size: 40px;
+	font-weight: lighter;
+	text-align: left;
+	float: left;
+}
+
+.tnumber2 {
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 40px;
+	text-align: left;
+	float: left;
+}
+
+}/*MEDIA----------*/
+/*КОМП*/
+@media (min-width : 1000px) {
+.logoind {
+	background-image: url(img/durum.png);
+	background-size: 100%;
+	background-repeat: no-repeat;
+	width: 155px;
+	height: 200px;
+	position: absolute;
+	margin: 20px;
+}
+
+.mainmenu {
+	display: flex;
+	margin: 0vh 20vh 5vh 20vh;
+	padding: 50px 150px 0px 150px;
+	justify-content: space-around;
+}
+
+.xmainmenu {
+	display: flex;
+	margin: 0vh 10vh 5vh 10vh;
+	padding: 50px 150px 0px 150px;
+	justify-content: space-around;
+}
+
+.mainsubmenu {
+	display: flex;
+	justify-content: space-around;
+	font-size: 25px;
+	text-decoration: none;
+	border-top: 2px #fff solid;
+	color: #fff;
+	font-weight: bold;
+	margin: 10px;
+}
+
+.mainsubmenu:hover {
+	transition: 0.5s;
+	background-color: #000;
+}
+
+.main-item {
+	display: none;
+}
+
+.nav {
+	display: none;
+}
+
+.nav-toggle {
+	display: none;
+}
+
+.bludo {
+	display: flex;
+	flex-wrap: wrap;
+	height: 400px;
+	width: 300px;
+	background-color: #fff;
+	margin: 30px 50px 30px 50px;
+	padding: 0px;
+	border-radius: 5px;
+	flex-direction: column;
+}
+
+.logobludo {
+	height: 225px;
+	/*width: 100%;*/
+	border-radius: 5px;
+	text-align: center;
+}
+
+.nazvaniekat {
+	display: flex;
+	color: #4A2C00;
+	background-color: #BDBDBD;
+	justify-content: center;
+	text-decoration: none;
+	font-size: 40px;
+	font-weight: bold;
+	flex-wrap: wrap;
+	margin: 10px;
+}
+
+.nazvanie {
+	display: flex;
+	color: #4A2C00;
+	background-color: #BDBDBD;
+	justify-content: center;
+	text-align: center;
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: bold;
+	flex-wrap: wrap;
+	margin: 6px 6px 0px 6px;
+}
+
+.cena {
+	display: flex;
+	color: #4A2C00;
+	text-decoration: none;
+	font-size: 20px;
+	font-weight: bold;
+	margin: 5px auto 0px auto;
+	/*margin: 5px 0px 0px 5px;*/
+	text-align: center;
+	justify-content: center;
+}
+
+.zakazat {
+	display: flex;
+	color: #4A2C00;
+	text-decoration: none;
+	font-size: 30px;
+	text-decoration: none;
+	text-align: center;
+	margin: auto 10px 10px 10px;
+	box-shadow: 0px 0px 0px 3px #000;
+	padding: 2px;
+	justify-content: center;
+	background-color: #fff;
+}
+
+.cenzak {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	margin: auto 0px 0px 0px;
+	padding-top: 10px;
+	background-image: url(img/bodybackgroundwhite.jpg);
+	-webkit-background-size: 80px;
+	background-size: 80px;
+}
+
+.zakazat:hover {
+	background-color: #72221E;
+	color: #E8C172;
+	transition: 0.3s;
+}
+
+/*ОФОРМЛЕНИЕ ЗАКАЗА НАЧАЛО*/
+
+.number1 {
+	color: #000;
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: lighter;
+}
+
+.number2 {
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.tnumber1 {
+	color: #000;
+	text-decoration: none;
+	font-size: 25px;
+	font-weight: lighter;
+	text-align: left;
+	float: left;
+}
+
+.tnumber2 {
+	color: #000;
+	text-decoration: none;
+	font-weight: bold;
+	font-size: 25px;
+	text-align: left;
+	float: left;
+}
+
+.dostavka {
+	margin-top: 30px;
+	background-color: #232323;
+	color: #fff;
+	width: 100%;
+	font-size: 30px;
+	padding: 30px 50px 30px 50px;
+	text-align: left;
+	text-shadow: 0 0 10px #000;
+	border: 15px dashed #fff;
+}
+
+.akcia {
+	width: 50%;
+}
+
+}/*MEDIA----------*/
+
+.sub-menu {
+	position: absolute;
+	/*margin: 40px 0px 0px 20%;*/
+	left: 25%;
+}
+
+.main-item {
+	background-image: url(img/menub.png);
+	background-size: 100%;
+	height: 40px;
+	width: 40px;
+	background-color: #F5F5F5;
+	margin-top: 25px;
+	position: relative;
+	margin: auto 25px auto auto;
+}
+
+.ansvainv {
+	color: #4A2C00;
+	text-decoration: none;
+	font-size: 70px;
+	padding: 0px 30%;
+	justify-content: space-around;
+	display: flex;
+	flex-direction: column;
+	box-shadow: 0 0 0 3px #000;
+}
+
+.sub-menu { 
+   display: none;
+} 
+.main-item:focus ~ .sub-menu, 
+.main-item:active ~ .sub-menu, 
+.sub-menu:hover { 
+   display: block;
+}
+
+/*МЕНЮ ДЛЯ КОМПЬЮТЕРА КОНЕЦ*/
+/*----------МЕНЮ КОНЕЦ----------*/
+/*----------БЛЮДА НАЧАЛО----------*/
+
+.menublocks {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+/*ОФОРМЛЕНИЕ ЗАКАЗА КОНЕЦ*/
