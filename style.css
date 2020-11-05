@@ -138,12 +138,18 @@ body {
 }
 
 .telephone {
+	font-family: "Bold";
 	display: flex;
 	justify-content: center;
-	color: #fff;
-	margin: 50px;
-	font-size: 30px;
+	color: #ff0000;
+	margin: 0 auto 10px auto;
+	font-size: 50px;
 	font-weight: 900;
+	bottom: 0;
+	width: 100%;
+	position: absolute;
+	padding: 10px;
+	text-shadow: 0 0 10px #000;
 }
 
 /*МЕНЮ ДЛЯ ТЕЛЕФОНА НАЧАЛО*/
