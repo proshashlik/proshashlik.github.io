@@ -173,10 +173,6 @@ body {
 }
 
 .telephone {
-	font-family: "Bold";
-	display: flex;
-	flex-wrap: nowrap;
-	justify-content: center;
 	color: #fff !important;
 	cursor:default: !important;
 	text-decoration:none !important;
@@ -185,9 +181,18 @@ body {
 	/*margin: 0 auto 10vh auto;*/
 	bottom: 10vh;
 	font-size: 50px;
-	font-weight: 900;
-	padding: 10px;
-	text-shadow: 0 0 0 #000;
+}
+
+.timerabot {
+	font-size: 40px;
+}
+
+.name {
+	font-size: 85px;
+}
+
+.menubutton {
+	font-size: 40px;
 }
 
 .maintext {
