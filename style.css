@@ -155,6 +155,18 @@ body {
 .indexbox{
 	background-size: cover;
 }
+	
+.telephone {
+	font-family: "Bold";
+	display: flex;
+	justify-content: center;
+	color: #ff0000;
+	margin: 0 auto 10vh auto;
+	font-size: 65px;
+	font-weight: 900;
+	padding: 10px;
+	text-shadow: 0 0 0 #000;
+}
 
 .maintext {
 	padding-top: 20vh;
