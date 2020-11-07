@@ -141,7 +141,7 @@ body {
 	font-family: "Bold";
 	display: flex;
 	justify-content: center;
-	color: #ff0000;
+	color: #fff;
 	margin: 0 auto 10vh auto;
 	font-size: 50px;
 	font-weight: 900;
@@ -160,7 +160,7 @@ body {
 	font-family: "Bold";
 	display: flex;
 	justify-content: center;
-	color: #ff0000;
+	color: #fff;
 	margin: 0 auto 10vh auto;
 	font-size: 65px;
 	font-weight: 900;
