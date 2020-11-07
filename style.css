@@ -140,6 +140,7 @@ body {
 .dostavkafree {
 	font-family: "Bold";
 	display: flex;
+	flex-wrap: nowrap;
 	justify-content: center;
 	color: #fff !important;
 	cursor:default: !important;
@@ -154,6 +155,7 @@ body {
 .telephone {
 	font-family: "Bold";
 	display: flex;
+	flex-wrap: nowrap;
 	justify-content: center;
 	color: #fff !important;
 	cursor:default: !important;
