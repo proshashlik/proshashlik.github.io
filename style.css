@@ -35,6 +35,10 @@ body {
 	font-family: 'RobotoRegular';
 }
 
+#enscart_image_wrapper{
+	margin-right: 15vh;
+}
+
 /*----------МЕНЮ НАЧАЛО----------*/
 
 .indexbox {
