@@ -35,6 +35,31 @@ body {
 	font-family: 'RobotoRegular';
 }
 
+@media screen and (max-width: 800px){
+#enscart_wrapper {
+    top: auto;
+    bottom: 40px;
+
+    right: auto;
+    left: 50px;
+}
+
+
+#enscart_wrapper, .easynetshop-modal, .btn-ens-style {
+        -o-transform: scale(1.5);
+    -ms-transform: scale(1.5);
+    -moz-transform: scale(1.5);
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+}
+
+.easynetshop-modal {
+    width: 270px;
+    margin: 170px auto;
+}
+
+}
+
 #enscart_image_wrapper{
 	margin-right: 10vh;
 }
