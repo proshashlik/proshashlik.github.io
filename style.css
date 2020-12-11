@@ -164,6 +164,8 @@ body {
 	margin: 10px auto;
 	padding: 10px 40px;
 	font-weight: bold;
+	position: relative;
+	z-index: 1000;
 }
 
 .menubutton:hover {
@@ -228,10 +230,6 @@ body {
 @media (max-width : 1000px) {
 .indexbox{
 	background-size: cover;
-}
-
-.sale {
-	margin: -10px 0 0 0;
 }
 
 .salebaner {
