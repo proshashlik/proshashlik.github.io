@@ -102,7 +102,7 @@ body {
 	display: flex;
 	justify-content: center;
 	box-shadow: 0 0 5px 0 #000;
-	z-index: 3;
+	z-index: 9999;
 	position: relative;
 	border-bottom: 5px dashed #fff;
 }
