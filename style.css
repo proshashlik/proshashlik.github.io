@@ -230,6 +230,10 @@ body {
 	background-size: cover;
 }
 
+.sale {
+	margin: -10px 0 0 0;
+}
+
 .salebaner {
 	flex-direction: column;
 	justify-content: center;
