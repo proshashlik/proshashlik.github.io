@@ -23,13 +23,13 @@ src: url(fonts/Bold.ttf); /* Путь к файлу со шрифтом */
 }
 
 body {
-	background-image: url(img/bgi.png);
+	/*background-image: url(img/bgi.jpg);*/
 	background-size: cover;
 
 	background-repeat:no-repeat;
 	background-attachment:fixed;
 
-	background-color: #fff;
+	background-color: #101010;
 	padding: 0px 0px 0px 0px;
 	margin: 0px 0px 0px 0px;
 	font-family: 'RobotoRegular';
